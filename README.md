@@ -8,7 +8,7 @@ This Discourse Theme Component adds an Open in Script Editor button below AppleS
 
 2. _Optional_ - You can make AppleScript the default language for code blocks by setting the `default code lang` Discoursse setting to `applescript`.
 
-  If you do not make AppleScript the default language, your forum users must explicitly indicate their code is AppelScript code:
+    If you do not make AppleScript the default language, your forum users must explicitly indicate their code is AppelScript code:
   
 
         ```applescript
