@@ -1,0 +1,4 @@
+button_title:
+  type: string
+  default: "Open in Script Editor"
+  description: "Title of the Open in Script Editor button"
