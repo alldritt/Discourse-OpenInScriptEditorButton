@@ -1,6 +1,6 @@
 {
   "name": "Open in Script Editor Button",
-  "component": false,
+  "component": true,
   "license_url": null,
   "about_url": null,
   "authors": null,
