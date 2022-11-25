@@ -2,3 +2,10 @@ button_title:
   type: string
   default: "Open in Script Editor"
   description: "Title of the Open in Script Editor button"
+editor_schema:
+  default: applescript
+  type: enum
+  choices:
+    - applescript
+    - sdapplescript
+  description: "'applescript' opens the script in the user's default script editor application while 'sdapplescript' opens the script in Late Night Software's Script Debugger."

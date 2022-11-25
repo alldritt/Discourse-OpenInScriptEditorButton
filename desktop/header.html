@@ -11,7 +11,7 @@
                     if (!target.hasClass('has-as-button') && (target.hasClass('applescript') || target.hasClass('language-applescript') || target.hasClass('lang-applescript'))) {
    		                var src = encodeURIComponent(mutation.target.innerText);
 
-        		        $('<a class="widget-button btn btn-default" href="applescript://com.apple.scripteditor?action=new&script=' + src + '">' + settings.button_title + '</a>' ).insertAfter(target.parent());
+        		        $('<a class="widget-button btn btn-default" href="' + settings.editor_schema + '://com.apple.scripteditor?action=new&script=' + src + '">' + settings.button_title + '</a>' ).insertAfter(target.parent());
         		        target.classList.add('has-as-button');
                     }
                 });
@@ -26,7 +26,7 @@
             	}).each(function(index) {
    		            var src = encodeURIComponent(this.innerText);
 
-        		    $('<a class="widget-button btn btn-default" href="applescript://com.apple.scripteditor?action=new&script=' + src + '">' + settings.button_title + '</a>' ).insertAfter($(this).parent());
+        		    $('<a class="widget-button btn btn-default" href="' + settings.editor_schema + '://com.apple.scripteditor?action=new&script=' + src + '">' + settings.button_title + '</a>' ).insertAfter($(this).parent());
         		    this.classList.add('has-as-button');
         	    });
         	    
