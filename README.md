@@ -20,5 +20,5 @@ This Discourse Theme Component adds an Open in Script Editor button below AppleS
 
    - Button Title: the title of the button appearing below AppleScript code blocks.
 
-   - Editor Schema: the URL scheme used to open scripts.  99% of the time this should be `applescript` which opens code in the user's default AppleScript Editor.  The `sdapplescript` schema forces scripts to be opened in Late Night Software's Script Debugger which the user may not have installed.
+   - Editor Schema: the URL scheme used to open scripts.  99% of the time this should be `applescript` which opens code in the user's default AppleScript Editor.  The `sdapplescript` schema forces scripts to be opened in [Late Night Software's Script Debugger](http://latenightsw.com) which the user may not have installed.
 
